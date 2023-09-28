@@ -29,7 +29,7 @@ I collected 100 real facts and 100 fake facts about each of the four animals - c
 - **Logistic Regression (Model 2)** Logistic Regression finds the best fitting model to describe the relationship between the dichotomous characteristic of interest and a set of independent variables.
   ![LR](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/LR.png)
 - **Support Vector Machines SVM (Model 3):** The primary goal of SVM is to find a hyperplane (or decision boundary) that best divides a dataset into classes.
-  ![SVM](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/SVM.pnG)
+  ![SVM](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/SVM.png)
   
 ## Parameter Settings:
 I tested the model’s performance with a different combination of pre-processing techniques. I also tested the model’s performance with different sizes of training and test dataset. I also tested the following hyperparameter settings for all three models and compared the performance against the default model setting. I highlighted the best parameter settings for each model in red.
