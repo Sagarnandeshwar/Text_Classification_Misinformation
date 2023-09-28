@@ -25,14 +25,23 @@ I collected 100 real facts and 100 fake facts about each of the four animals - c
   
 ## Linear Classifiers:
 - **Naive Bayes (Model 1):** Naive Bayes is a probabilistic machine learning algorithm that's based on the Bayes' theorem.
+  ![NM](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/NB.png)
 - **Logistic Regression (Model 2)** Logistic Regression finds the best fitting model to describe the relationship between the dichotomous characteristic of interest and a set of independent variables.
+  ![LR](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/LR.png)
 - **Support Vector Machines SVM (Model 3):** The primary goal of SVM is to find a hyperplane (or decision boundary) that best divides a dataset into classes.
+  ![SVM](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/SVM.pnG)
   
 ## Parameter Settings:
 I tested the model’s performance with a different combination of pre-processing techniques. I also tested the model’s performance with different sizes of training and test dataset. I also tested the following hyperparameter settings for all three models and compared the performance against the default model setting. I highlighted the best parameter settings for each model in red.
+![m1](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/m1.png)
+![m2](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/m2.png)
+![m3](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/m3.png)
 
 ## Result:
 I used sklearn accuracy_score, which is fraction of correctly classified samples, and F1 score, which is F1 = 2 * (precision * recall) / (precision + recall), to compare model’s performance.
+![Pre_proccess](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/Pre_proccess.png)
+![para](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/para.png)
+![Hyperpara](https://github.com/Sagarnandeshwar/Text_Classification_Misinformation/blob/main/images/Hyperpara.png)
 
 ## Conclusion:
 Since Model 2 and Model 3 were able to get an accuracy of higher than 0.85 with selective pre-processing technique, we can say that linear classifier can distinguish real facts from fake facts about the animals. Additionally, since Model 2 and Model 3 perform significantly better than model 1 we also say that the choice of linear classifier does matter.
